@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Platform</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Quiz</h1>
+    <div id="quiz-container">
+        <div id="question-container">
+            <p id="question">Question goes here</p>
+        </div>
+        <div id="options-container">
+            <label>
+                <input type="radio" name="answer" value="option1"> Option 1
+            </label>
+            <label>
+                <input type="radio" name="answer" value="option2"> Option 2
+            </label>
+            <label>
+                <input type="radio" name="answer" value="option3"> Option 3
+            </label>
+            <label>
+                <input type="radio" name="answer" value="option4"> Option 4
+            </label>
+            <label>
+                <input type="radio" name="answer" value="option5"> Option 5
+            </label>
+        </div>
+        <button id="next-button">Next</button>
+    </div>
+    <div id="result-container">
+        <p>Your score: <span id="score">0</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
